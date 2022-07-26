@@ -1,3 +1,37 @@
-h1 {
-    text-align: center;
+:root {
+
+    --blanco: #fff;
+    --oscuro: #151515;
+    --primario: #301B3F;
+    --secundario: #3C415C;
+    --gris: #B4A5A5;
+
+    --fuente-principal: 'Krub', sans-serif;
+
+    --w-normal: 400;
+    --w-bold: 700;
 }
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+}
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: var(--fuente-principal);
+    font-weight: var(--w-bold);
+}
+.titulo span {
+    font-size: 2rem; /* 1rem === 10px */
+}
+.nav-bg {
+    background-color: var(--primario);
+}
+.navegacion-principal {
+    width: 120rem;
+    margin: 0 auto;
+}
+
