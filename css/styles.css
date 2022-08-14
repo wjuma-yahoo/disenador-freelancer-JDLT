@@ -27,11 +27,18 @@ body {
 .titulo span {
     font-size: 2rem; /* 1rem === 10px */
 }
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
 .nav-bg {
     background-color: var(--primario);
 }
 .navegacion-principal {
-    width: 120rem;
-    margin: 0 auto;
+    padding: 1rem;
+}
+.navegacion-principal a {
+    text-decoration: none;
+    color: var(--blanco);
 }
 
